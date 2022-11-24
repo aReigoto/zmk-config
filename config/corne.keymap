@@ -31,7 +31,7 @@
           bindings = <
           &trans &kp COMMA &kp N7 &kp N8 &kp N9 &none         &kp HOME &kp PAGE_DOWN &kp PAGE_UP &kp END   &none &kp DELETE  
           &trans &kp DOT   &kp N4 &kp N5 &kp N6 &none         &kp LEFT &kp DOWN      &kp UP      &kp RIGHT &none &sl 5  
-          &trans &kp N0    &kp N1 &kp N2 &kp N3 &none         &none &mmv MOVE_DOWN &mmv MOVE_UP &none &none &to 0 
+          &trans &kp N0    &kp N1 &kp N2 &kp N3 &none         &none &none &none &none &none &to 0 
                                  &trans &trans &trans         &trans &mo 4 &trans
           >;
         };layer3 {
