@@ -54,9 +54,9 @@
         };
       layer5 {
           bindings = <
-          &kp N6 &kp N6 &kp N6 &kp N6 &kp N6 &kp N6             &kp N6     &kp N6       &kp N6       &kp N6       &kp N6       &kp N6 
-          &none  &none  &to 4  &to 5  &none  &none              &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4
-          &none  &to 0  &to 1  &to 2  &to 3  &none              &none      &none        &none        &none        &none        &to 0 
+          &kp N6 &kp N6 &kp N6 &kp N6 &kp N6 &kp N6             &bt BT_CLR   &none        &none        &none        &none &none
+          &none  &none  &to 4  &to 5  &none  &none              &none        &bt BT_SEL 4 &none        &none        &none &none
+          &none  &to 0  &to 1  &to 2  &to 3  &none              &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &none &to 0 
                                  &none &none &none              &none &none &none
           >;
         };
