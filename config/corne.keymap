@@ -59,10 +59,10 @@
         };
       layer2 {
           bindings = <
-          &trans &kp COMMA &kp N7 &kp N8 &kp N9 &mkp MCLK         &kp HOME             &kp PAGE_DOWN        &kp PAGE_UP           &kp END             &mkp MCLK &kp DELETE
-          &trans &kp DOT   &kp N4 &kp N5 &kp N6 &mkp RCLK         &kp LEFT             &kp DOWN             &kp UP                &kp RIGHT           &mkp RCLK &sl 5
-          &trans &kp N0    &kp N1 &kp N2 &kp N3 &mkp LCLK         &mmv MOVE_HOR(-3500) &mmv MOVE_VERT(3500) &mmv MOVE_VERT(-3500) &mmv MOVE_HOR(3500) &mkp LCLK &to 0
-                                     &trans &trans &trans         &trans &mo 4 &trans
+          &trans &kp COMMA &kp N7 &kp N8 &kp N9 &mwh SCROLL_VERT(15)         &kp HOME             &kp PAGE_DOWN        &kp PAGE_UP           &kp END             &mkp MCLK &kp DELETE
+          &trans &kp DOT   &kp N4 &kp N5 &kp N6 &mwh SCROLL_VERT(-15)        &kp LEFT             &kp DOWN             &kp UP                &kp RIGHT           &mkp RCLK &sl 5
+          &trans &kp N0    &kp N1 &kp N2 &kp N3 &none                        &mmv MOVE_HOR(-3500) &mmv MOVE_VERT(3500) &mmv MOVE_VERT(-3500) &mmv MOVE_HOR(3500) &mkp LCLK &to 0
+                                     &trans &trans &trans                    &trans &mo 4 &trans
           >;
         };
       layer3 {
