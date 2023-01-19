@@ -67,8 +67,8 @@
         };
       layer3 {
           bindings = <
-          &trans &kp LPAR &kp LBRC  &kp LBKT  &kp LT   &kp EXCL              &kp PLUS         &kp MINUS &kp ASTRK &kp SLASH     &kp EQUAL &kp BACKSPACE
-          &trans &kp RPAR &kp RBRC  &kp RBKT  &kp GT   &kp QMARK             &kp GRAVE        &kp UNDER &kp CARET &kp BACKSLASH &kp HASH  &sl 5
+          &trans &kp LPAR &kp LBKT  &kp LBRC  &kp LT   &kp EXCL              &kp PLUS         &kp MINUS &kp ASTRK &kp SLASH     &kp EQUAL &kp BACKSPACE
+          &trans &kp RPAR &kp RBKT  &kp RBRC  &kp GT   &kp QMARK             &kp GRAVE        &kp UNDER &kp CARET &kp BACKSLASH &kp HASH  &sl 5
           &trans &none    &kp DLLR  &kp PRCNT &kp AMPS &kp DOUBLE_QUOTES     &kp SINGLE_QUOTE &kp TILDE &kp AT    &kp PIPE      &none     &to 0
                                          &trans &mo 4 &trans                 &trans &trans &trans
           >;
