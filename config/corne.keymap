@@ -36,7 +36,7 @@
             quick_tap_ms = <200>;
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
-        },
+        };
         mot: momentary_layer_tap {
             compatible = "zmk,behavior-hold-tap";
             label = "mot";
