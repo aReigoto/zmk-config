@@ -101,7 +101,7 @@
           bindings = <
           &kp N6 &kp N6 &kp N6 &kp N6 &kp N6 &kp N6                 &kp N6 &kp N6 &kp N6 &kp N6 &kp N6 &kp N6
           &kp N6 &kp N6 &kp N6 &kp N6 &kp N6 &kp A                 &kp N6 &kp N6 &kp N6 &kp N6 &kp N6 &kp N6
-          &tog 7 &none &none &none &none &kp N6                     &kp N6 &kp N6 &kp N6 &kp N6 &kp N6 &kp N6
+          &tog 7 &none &none &none &none &kp N6                     &kp N6 &kp N6 &kp N6 &kp N6 &kp N6 &to 0
                                   &none &none &none                 &none &none &none
           >;
         };
@@ -109,7 +109,7 @@
           bindings = <
           &kp N7 &kp N7 &kp N7 &kp N7 &kp N7 &kp N7     &kp N7 &kp N7 &kp N7 &kp N7 &kp N7 &kp N7
           &kp N7 &kp N7 &kp N7 &kp N7 &kp N7 &kp N7     &kp N7 &kp N7 &kp N7 &kp N7 &kp N7 &kp N7
-          &tog 7 &none &none &none &none &kp N7         &kp N7 &kp N7 &kp N7 &kp N7 &kp N7 &kp N7
+          &tog 7 &none &none &none &none &kp N7         &kp N7 &kp N7 &kp N7 &kp N7 &kp N7 &to 0
                                   &none &none &none     &none &none &none
           >;
         };
