@@ -99,17 +99,17 @@
         };
       layer6 {
           bindings = <
-          &tog 7 &trans &trans &trans &trans &trans                 &trans &trans &trans &trans &trans &trans
-          &trans &trans &trans &trans &trans &kp A                 &trans &trans &trans &trans &trans &trans
-          &trans &trans &trans &trans &trans &kp 6                 &trans &trans &trans &trans &trans &trans
+          &tog 7 &none &none &none &none &none                 &none &none &none &none &none &none
+          &none &none &none &none &none &kp A                 &none &none &none &none &none &none
+          &none &none &none &none &none &kp 6                 &none &none &none &none &none &none
                                   &none &none &none                 &none &none &mo 6
           >;
         };
       layer7 {
           bindings = <
-          &tog 7 &trans &trans &trans &trans &trans     &trans &trans &trans &trans &trans &trans
-          &trans &trans &trans &trans &trans &trans     &trans &trans &trans &trans &trans &trans
-          &trans &trans &trans &trans &trans &kp 7     &trans &trans &trans &trans &trans &trans
+          &tog 7 &none &none &none &none &none     &none &none &none &none &none &none
+          &none &none &none &none &none &trans     &none &none &none &none &none &none
+          &none &none &none &none &none &kp 7     &none &none &none &none &none &none
                                   &none &none &none     &none &none &none
           >;
         };
