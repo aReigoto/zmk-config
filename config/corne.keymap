@@ -91,8 +91,8 @@
         };
       layer5 {
           bindings = <
-          &kp N5 &kp N5 &kp N5 &kp N5 &kp N5 &kp N5                          &bt BT_CLR   &out OUT_USB &out OUT_BLE &none        &none &none
-          &none  &none  &to 4  &to 5  &none  &none                           &none        &bt BT_SEL 4 &none        &none        &none &none
+          &kp N5 &kp N5 &to 7   &kp 5 &kp N5 &kp N5                          &bt BT_CLR   &out OUT_USB &out OUT_BLE &none        &none &none
+          &none  &none  &to 4  &to 5  &to 6  &none                           &none        &bt BT_SEL 4 &none        &none        &none &none
           &none  &to 0  &to 1  &to 2  &to 3  &none                           &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &none &to 0 
                                  &none &none &none                           &none &none &none
           >;
