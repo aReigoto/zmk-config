@@ -100,16 +100,16 @@
       layer6 {
           bindings = <
           &kp N6 &kp N6 &kp N6 &kp N6 &kp N6 &kp N6                 &kp N6 &kp N6 &kp N6 &kp N6 &kp N6 &kp N6
-          &kp N6 &kp N6 &kp N6 &kp N6 &kp N6  &kp A                 &kp N6 &kp N6 &kp N6 &kp N6 &kp N6 &kp N6
-          &tog 7 &none &none &none &none &kp 6                 &kp N6 &kp N6 &kp N6 &kp N6 &kp N6 &kp N6
+          &kp N6 &kp N6 &kp N6 &kp N6 &kp N6 &kp A                 &kp N6 &kp N6 &kp N6 &kp N6 &kp N6 &kp N6
+          &tog 7 &none &none &none &none &kp N6                     &kp N6 &kp N6 &kp N6 &kp N6 &kp N6 &kp N6
                                   &none &none &none                 &none &none &none
           >;
         };
       layer7 {
           bindings = <
           &kp N7 &kp N7 &kp N7 &kp N7 &kp N7 &kp N7     &kp N7 &kp N7 &kp N7 &kp N7 &kp N7 &kp N7
-         &kp N7 &kp N7 &kp N7 &kp N7 &kp N7 &kp N7     &kp N7 &kp N7 &kp N7 &kp N7 &kp N7 &kp N7
-          &tog 7 &none &none &none &none &kp 7     &kp N7 &kp N7 &kp N7 &kp N7 &kp N7 &kp N7
+          &kp N7 &kp N7 &kp N7 &kp N7 &kp N7 &kp N7     &kp N7 &kp N7 &kp N7 &kp N7 &kp N7 &kp N7
+          &tog 7 &none &none &none &none &kp N7         &kp N7 &kp N7 &kp N7 &kp N7 &kp N7 &kp N7
                                   &none &none &none     &none &none &none
           >;
         };
