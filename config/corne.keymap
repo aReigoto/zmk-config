@@ -97,6 +97,22 @@
                                  &none &none &none                           &none &none &none
           >;
         };
+      layer6 {
+          bindings = <
+          &trans &trans &trans &trans &trans &trans                 &trans &trans &trans &trans &trans &trans
+          &trans &trans &trans &trans &trans &trans                 &trans &trans &trans &trans &trans &trans
+          &trans &trans &trans &trans &trans &trans                 &trans &trans &trans &trans &trans &trans
+                                  &none &none &none                 &none &none &none
+          >;
+        };
+      layer7 {
+          bindings = <
+          &trans &trans &trans &trans &trans &trans     &trans &trans &trans &trans &trans &trans
+          &trans &trans &trans &trans &trans &trans     &trans &trans &trans &trans &trans &trans
+          &trans &trans &trans &trans &trans &trans     &trans &trans &trans &trans &trans &trans
+                                  &none &none &none     &none &none &none
+          >;
+        };
     };
   };
 
