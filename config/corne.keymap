@@ -12,40 +12,40 @@
 #include <dt-bindings/zmk/outputs.h>
 
 //  Mac
-#define M_RDO &kp LS(LG(Z))
-#define M_PST &kp LG(V)
-#define M_CPY &kp LG(C)
-#define M_CUT &kp LG(X)
-#define M_UND &kp LG(Z)
-#define M_SNX &kp LG(D)
-#define M_MNX &kp LA(RIGHT)
-#define M_MPR &kp LA(LEFT)
-#define M_SAV &kp LG(S)
+#define M_RDO LS(LG(Z))
+#define M_PST LG(V)
+#define M_CPY LG(C)
+#define M_CUT LG(X)
+#define M_UND LG(Z)
+#define M_SNX LG(D)
+#define M_MNX LA(RIGHT)
+#define M_MPR LA(LEFT)
+#define M_SAV LG(S)
 
 // Win
-#define W_RDO &kp LC(Y)
-#define W_PST &kp LC(V)
-#define W_CPY &kp LC(C)
-#define W_CUT &kp LC(X)
-#define W_UND &kp LC(Z)
-#define W_SNX &kp LC(D)
-#define W_MNX &kp LC(RIGHT)
-#define W_MPR &kp LC(LEFT)
-#define W_SAV &kp LC(S)
+#define W_RDO LC(Y)
+#define W_PST LC(V)
+#define W_CPY LC(C)
+#define W_CUT LC(X)
+#define W_UND LC(Z)
+#define W_SNX LC(D)
+#define W_MNX LC(RIGHT)
+#define W_MPR LC(LEFT)
+#define W_SAV LC(S)
 
 &lt {
     quick_tap_ms = <200>;
 };
 
-&mmv {    
+&mmv {
     time-to-max-speed-ms = <750>;
     //time-to-max-speed-ms = <500>;
     acceleration-exponent=<1>;
 };
-&mwh {    
+&mwh {
     time-to-max-speed-ms = <2000>;
     acceleration-exponent=<0>;
-}; 
+};
 
   / {
 
@@ -86,7 +86,7 @@
           &trans &trans &trans &trans &trans &trans                 &trans &trans &trans &trans &trans &to 0
                            &mot 9 ESC &trans &trans                 &trans &trans &trans
           >;
-        };       
+        };
       layer2 {
           bindings = <
           &none &kp Q      &kp W      &kp F       &kp P        &kp B         &kp J &kp L        &kp U       &kp Y        &kp SEMICOLON &none
@@ -102,7 +102,7 @@
           &trans &trans &trans &trans &trans &trans                 &trans &trans &trans &trans &trans &to 0
                            &mot 9 ESC &trans &trans                 &trans &trans &trans
           >;
-        };         
+        };
       layer4 {
           bindings = <
           &trans &kp COMMA    &kp N7      &kp N8       &kp N9        &mwh SCROLL_VERT(15)         &kp HOME             &kp PAGE_DOWN        &kp PAGE_UP           &kp END             &mkp MCLK &none
