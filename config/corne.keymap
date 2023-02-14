@@ -129,15 +129,15 @@
         };
       layer7 {
           bindings = <
-          &bt BT_CLR   &out OUT_USB &out OUT_BLE &none        &none &none                 &kp N5 &kp N5 &to 7  &to 8  &to 9  &kp N5
-          &none        &bt BT_SEL 4 &none        &none        &none &none                 &none  &none  &to 4  &to 5  &to 6  &none
-          &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &none &none                 &none  &to 0  &to 1  &to 2  &to 3  &to 0
+          &bt BT_CLR   &out OUT_USB &out OUT_BLE &none        &none &none                 &kp N7 &to 7  &to 8  &to 9 &none &kp N7
+          &none        &bt BT_SEL 4 &none        &none        &none &none                 &kp N7 &to 4  &to 5  &to 6 &none &none
+          &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &none &none                 &to 0  &to 1  &to 2  &to 3 &none &to 0
                                                         &none &none &none                 &none &none &none
           >;
         };
       layer8 {
           bindings = <
-          &none &kp N8    &kp N8    &kp N8    &kp N8    &kp N8         &kp N8    &kp N8 &kp N8 &kp N8    &kp N8 &none
+          &none &kp N8    &kp N8    &kp N8    &kp N8    &kp N8         &kp N8    &kp N8 &kp N8 &kp N8    &kp N8 &kp N8
           &none &kp N8    &kp M_SAV &kp N8    &kp N8    &kp A          &kp M_MPR &kp N8 &kp N8 &kp M_MNX &kp N8 &none
           &none &kp M_UND &kp M_CUT &kp M_CPY &kp M_PST &kp M_RDO      &kp N8    &kp N8 &kp N8 &kp N8    &kp N8 &to 0
                                   &none &none &none                    &none &none &none
@@ -145,9 +145,9 @@
         };
       layer9 {
           bindings = <
-          &none &kp N8    &kp N8    &kp N8    &kp N8    &kp N8         &kp N8    &kp N8 &kp N8 &kp N8    &kp N8 &none
-          &none &kp N8    &kp W_SAV &kp N8    &kp N8    &kp A          &kp W_MPR &kp N8 &kp N8 &kp W_MNX &kp N8 &none
-          &none &kp W_UND &kp W_CUT &kp W_CPY &kp W_PST &kp W_RDO      &kp N8    &kp N8 &kp N8 &kp N8    &kp N8 &to 0
+          &none &kp N9    &kp N9    &kp N9    &kp N9    &kp N9         &kp N9    &kp N9 &kp N9 &kp N9    &kp N9 &kp N9
+          &none &kp N9    &kp W_SAV &kp N9    &kp N9    &kp A          &kp W_MPR &kp N9 &kp N9 &kp W_MNX &kp N9 &none
+          &none &kp W_UND &kp W_CUT &kp W_CPY &kp W_PST &kp W_RDO      &kp N9    &kp N9 &kp N9 &kp N9    &kp N9 &to 0
                                   &none &none &none                    &none &none &none
           >;
         };
