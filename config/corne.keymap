@@ -82,6 +82,16 @@
                 , <&macro_release &to 1>
                 ;
         };
+            zed_em_kay: zed_em_kay {
+            label = "ZM_zed_em_kay";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LSHFT>
+                , <&macro_tap &kp Z &kp M &kp K>
+                , <&macro_release &kp LSHFT>
+                ;
+        };
     };
 
     keymap {
@@ -152,7 +162,7 @@
         };
       layer8 {
           bindings = <
-          &none &kp N8    &kp N8    &kp N8    &kp N8     &kp N8         &kp N8    &kp N8 &kp N8 &kp N8    &kp N8 &none
+          &none &kp N8    &kp N8    &kp N8    &kp N8     &kp N8         &kp N8    &kp N8 &kp N8 &kp N8    &kp N8 &zed_em_kay
           &none &kp N8    &kp M_SAV &kp N8    &kp LSHIFT &kp A          &kp M_MPR &kp N8 &kp N8 &kp M_MNX &kp N8 &none
           &none &kp M_UND &kp M_CUT &kp M_CPY &kp M_PST  &kp M_RDO      &kp M_NEW &kp N8 &kp N8 &kp N8    &kp N8 &to 0
                                   &none &none &none                    &none &none &none
@@ -160,7 +170,7 @@
         };
       layer9 {
           bindings = <
-          &none &kp N9    &kp N9    &kp N9    &kp N9     &kp N9         &kp N9    &kp N9 &kp N9 &kp N9    &kp N9 &none
+          &none &kp N9    &kp N9    &kp N9    &kp N9     &kp N9         &kp N9    &kp N9 &kp N9 &kp N9    &kp N9 &zed_em_kay
           &none &kp N9    &kp W_SAV &kp N9    &kp LSHIFT &kp A          &kp W_MPR &kp N9 &kp N9 &kp W_MNX &kp N9 &none
           &none &kp W_UND &kp W_CUT &kp W_CPY &kp W_PST  &kp W_RDO      &kp W_NEW &kp N9 &kp N9 &kp N9    &kp N9 &to 0
                                   &none &none &none                    &none &none &none
