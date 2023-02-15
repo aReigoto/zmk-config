@@ -95,7 +95,7 @@
                 ;
         };
             macbt3: macbt3 {
-            label = "macBT1";
+            label = "macBT3";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
@@ -175,7 +175,7 @@
         };
       layer7 {
           bindings = <
-          &winbt &bt BT_CLR   &out OUT_USB &out OUT_BLE &none        &none                 &kp N7 &to 7  &to 8  &to 9 &none &kp N7
+          &none  &bt BT_CLR   &out OUT_USB &out OUT_BLE &none        &none                 &kp N7 &to 7  &to 8  &to 9 &none &kp N7
           &none  &none        &bt BT_SEL 4 &none        &none        &none                 &kp N7 &to 4  &to 5  &to 6 &none &none
           &none  &bt BT_SEL 0 &macbt1      &winbt2      &macbt3      &none                 &to 0  &to 1  &to 2  &to 3 &none &to 0
                                                         &none &none &none                 &none &none &none
