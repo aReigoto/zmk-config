@@ -160,10 +160,10 @@
           >;
         };
       layer5 {
-          bindings = <
-          &trans &kp RPAR &kp RBKT  &kp RBRC  &kp GT   &none                 &kp PLUS         &kp MINUS &kp ASTRK &kp SLASH     &kp EQUAL         &none
-          &trans &kp LPAR &kp LBKT  &kp LBRC  &kp LT   &kp QMARK             &kp GRAVE        &kp UNDER &kp CARET &kp BACKSLASH &kp HASH          &sl 7
-          &trans &kp EXCL &kp DLLR  &kp PRCNT &kp AMPS &none                 &kp SINGLE_QUOTE &kp TILDE &kp AT    &kp PIPE      &kp DOUBLE_QUOTES &to 0
+          bindings = < 
+          &trans &kp RPAR &kp RBKT  &kp RBRC  &kp GT   &none                 &kp GRAVE        &kp UNDER &kp AT    &kp BACKSLASH &kp HASH          &none
+          &trans &kp LPAR &kp LBKT  &kp LBRC  &kp LT   &kp QMARK             &kp PLUS         &kp MINUS &kp ASTRK &kp SLASH     &kp EQUAL         &sl 7
+          &trans &kp EXCL &kp DLLR  &kp PRCNT &kp AMPS &none                 &kp SINGLE_QUOTE &kp TILDE &kp CARET &kp PIPE      &kp DOUBLE_QUOTES &to 0
                                      &kp ESC &kp SPACE &kp TAB               &trans &trans &trans
           >;
         };
