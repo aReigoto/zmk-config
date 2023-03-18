@@ -41,10 +41,6 @@
 #define W_QAP LS(LA(F4))
 #define W_DEL DELETE
 
-&lt {
-    quick_tap_ms = <200>;
-};
-
 &mmv {
     time-to-max-speed-ms = <750>;
     //time-to-max-speed-ms = <500>;
@@ -62,17 +58,19 @@
             compatible = "zmk,behavior-hold-tap";
             label = "HOMEROW_MODS";
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
-            quick_tap_ms = <200>;
             flavor = "tap-preferred";
+            tapping-term-ms = <200>;
+            quick-tap-ms = <125>;
+            global-quick-tap;
             bindings = <&kp>, <&kp>;
         };
         mot: momentary_layer_tap {
             compatible = "zmk,behavior-hold-tap";
-            label = "mot";
+            label = "Momentary layer";
             #binding-cells = <2>;
             flavor = "tap-preferred";
             tapping-term-ms = <200>;
+            quick-tap-ms = <125>;
             bindings = <&mo>, <&kp>;
         };
     };
