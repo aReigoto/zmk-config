@@ -124,7 +124,7 @@
           &none &kp Q      &kp W      &kp E &kp R              &kp T         &kp Y &kp U        &kp I       &kp O        &kp P              &none
           &none &hm LGUI A &hm LALT S &hm LCTRL D &hm LSHIFT F &kp G         &kp H &hm RSHIFT J &hm RCTRL K &hm RALT L   &hm RGUI SEMICOLON &none
           &none &kp Z      &kp X      &kp C       &kp V        &kp B         &kp N &kp M        &kp COMMA   &kp DOT      &kp SLASH          &to 0
-                                  &mot 8 ESC &mot 4 SPACE &mot 7 TAB         &mot 6 ENTER &mot 5 BACKSPACE &mot 4 DELETE
+                                     &mot 8 ESC &mot 4 SPACE &kp TAB         &mot 6 ENTER &mot 5 BACKSPACE &mot 7 DELETE
           >;
         };
       layer1 {
@@ -140,7 +140,7 @@
           &none &kp Q      &kp W      &kp F       &kp P        &kp B         &kp J &kp L        &kp U       &kp Y        &kp SEMICOLON &none
           &none &hm LGUI A &hm LALT R &hm LCTRL S &hm LSHIFT T &kp G         &kp M &hm RSHIFT N &hm RCTRL E &hm RALT I   &hm RGUI O    &none
           &none &kp Z      &kp X      &kp C       &kp D        &kp V         &kp K &kp H        &kp COMMA   &kp DOT      &kp SLASH     &to 0
-                                 &mot 8 ESC &mot 4 SPACE &mot 7 TAB         &mot 6 ENTER &mot 5 BACKSPACE &mot 4 DELETE
+                                     &mot 8 ESC &mot 4 SPACE &kp TAB         &mot 6 ENTER &mot 5 BACKSPACE &mot 7 DELETE
           >;
         };
       layer3 {
