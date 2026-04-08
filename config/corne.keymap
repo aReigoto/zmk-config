@@ -12,7 +12,6 @@
 
 #include <dt-bindings/zmk/pointing.h>
 
-=======
 //  Mac
 #define M_RDO LS(LG(Z))
 #define M_PST LG(V)
