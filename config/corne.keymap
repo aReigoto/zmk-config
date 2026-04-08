@@ -15,7 +15,7 @@
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 20    // default: 10
 #include <dt-bindings/zmk/pointing.h>
 
-//  Mac
+//  Mac layer definitions
 #define M_RDO LS(LG(Z))
 #define M_PST LG(V)
 #define M_CPY LG(C)
@@ -30,7 +30,7 @@
 #define M_QAP LG(Q)
 #define M_DEL LG(D)
 
-// Win
+// Win layer definitions
 #define W_RDO LC(Y)
 #define W_PST LC(V)
 #define W_CPY LC(C)
@@ -144,6 +144,7 @@
 
     keymap {
       compatible = "zmk,keymap";
+      // Qwerty with mot 8 for macOS
       layer0 {
           bindings = <
           &none &kp Q      &kp W      &kp E &kp R              &kp T          &kp Y &kp U        &kp I       &kp O        &kp P              &print_layer N0
@@ -152,6 +153,7 @@
                                      &mot 8 ESC &mot 4 SPACE &kp TAB          &mot 6 ENTER &mot 5 BACKSPACE &mot 7 DELETE
           >;
         };
+      // Qwerty with mot 9 for Windows
       layer1 {
           bindings = <
           &trans &trans &trans &trans &trans &trans          &trans &trans &trans &trans &trans &print_layer N1
@@ -160,6 +162,7 @@
                            &mot 9 ESC &trans &trans          &trans &trans &trans
           >;
         };
+      // Colemak kind of with mot 8 for macOS
       layer2 {
           bindings = <
           &none &kp Q      &kp W      &kp F       &kp P        &kp B          &kp J &kp L        &kp U       &kp Y        &kp SEMICOLON &print_layer N2
@@ -168,6 +171,7 @@
                                      &mot 8 ESC &mot 4 SPACE &kp TAB          &mot 6 ENTER &mot 5 BACKSPACE &mot 7 DELETE
           >;
         };
+      // Colemak kind of with mot 9 for Windows
       layer3 {
           bindings = <
           &trans &trans &trans &trans &trans &trans          &trans &trans &trans &trans &trans &print_layer N3
@@ -176,6 +180,7 @@
                            &mot 9 ESC &trans &trans          &trans &trans &trans
           >;
         };
+      // Numbers arrows and mouse
       layer4 {
           bindings = <
           &trans &kp COMMA    &kp N7      &kp N8       &kp N9        &msc SCRL_UP            &kp HOME       &kp PAGE_DOWN  &kp PAGE_UP  &kp END         &mkp MCLK  &print_layer N4
@@ -184,6 +189,7 @@
                                           &trans       &trans        &trans                  &kp ENTER      &kp BACKSPACE  &kp DELETE
           >;
         };
+      // Symbols
       layer5 {
           bindings = < 
           &trans &kp RPAR &kp RBKT  &kp RBRC  &kp GT    &none              &kp GRAVE        &kp UNDER &kp AT    &kp BACKSLASH &kp HASH          &print_layer N5
@@ -192,6 +198,7 @@
                                     &kp ESC   &kp SPACE &kp TAB            &trans           &trans    &trans
           >;
         };
+      // F-Keys and Miscellaneous
       layer6 {
           bindings = <
           &none &kp PRINTSCREEN &kp F7 &kp F8 &kp F9 &kp F10          &none          &kp C_VOLUME_DOWN &kp C_VOLUME_UP  &kp C_MUTE         &kp C_EJECT &print_layer N6
@@ -200,6 +207,7 @@
                                            &none &none &none          &none &none &none
           >;
         };
+      // Bluetooth profile selector and layer selector
       // BT_CLR will only clear the current active bluetooth profile
       layer7 {
           bindings = <
@@ -209,6 +217,7 @@
                                            &none        &none   &none          &none  &none  &none
           >;
         };
+      // macOS layer
       layer8 {
           bindings = <
           &none &kp M_QAP &kp M_CLW &none     &none      &none              &none     &none &none &none     &none &print_layer N8
@@ -217,6 +226,7 @@
                                     &none     &none      &none              &none     &none &none
           >;
         };
+      // Windows layer
       layer9 {
           bindings = <
           &none &kp W_QAP &kp W_CLW &none     &none      &none              &none     &none  &none  &none     &none  &print_layer N9
